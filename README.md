@@ -30,8 +30,8 @@ There are a set of standards to keep in mind:
     production environment, as changes can be reported outside of it.
     
     _How:_ In the first step, familiarize with the configuration management systems eg. 
-    [Ansible], [Salt], [Puppet], [Chef]. In the next step you will need to write tools 
-    for exporting and applying settings.
+    [Ansible], [Salt], [Puppet], [Chef]. In the case of legacy software - you will 
+    probably need to write configuration export and import tools.
 
 * All custom tools that are present in the production environment should be versioned.
 
@@ -144,6 +144,6 @@ of the environment described by the code.
 [Chef]: https://www.chef.io/chef/
 [Puppet]: https://puppet.com/
 [Ansible]: https://www.ansible.com/
-[SaltStack]: https://saltstack.com/
+[Salt]: https://saltstack.com/
 [Zabbix]: https://www.zabbix.com/
 [InfluxData TICK]: https://www.influxdata.com/time-series-platform/
